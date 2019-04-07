@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Jan</first_name>
+	<last_name>Chabik</last_name>
+	<phone_number>123456789</phone_number>
+	<notes>false</notes>
+	<photo>C:\Users\Janek\Desktop\mojaTwarz201x287.jpg</photo>
+</contact>
+<contact>
+	<first_name>Agnieszka</first_name>
+	<last_name>Błaszkowska</last_name>
+	<phone_number>666777888</phone_number>
+	<notes>false</notes>
+	<photo>C:\Users\Janek\Desktop\Folder_do_Javy_Udemy\ContactList\agusia200x286.png</photo>
+</contact>
+<contact>
+	<first_name>Krzysztof</first_name>
+	<last_name>Krawczyk</last_name>
+	<phone_number>555555555</phone_number>
+	<notes>false</notes>
+	<photo>C:\Users\Janek\Desktop\Folder_do_Javy_Udemy\ContactList\defaultPhoto.png</photo>
+</contact>
+<contact>
+	<first_name>Wladimir</first_name>
+	<last_name>Putin</last_name>
+	<phone_number>123333555</phone_number>
+	<notes>false</notes>
+	<photo>C:\Users\Janek\Desktop\Folder_do_Javy_Udemy\ContactList\wlad200x286.jpg</photo>
+</contact>
+</contacts>

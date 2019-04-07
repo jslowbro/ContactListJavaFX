@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane        xmlns:fx="http://javafx.com/fxml"
+            fx:controller="application.AddEditContactController">
+    <content>
+        <GridPane vgap="10" hgap="10" stylesheets="@buttonStyles.css">
+            <Label text="Name :" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="nameTextField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+
+            <Label text="Surname :" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField fx:id="surnameTextField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+            <Label text="Number :" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField fx:id="numberTextField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+            <!--<Button fx:id="addPictureButton" text="Update Picture" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />-->
+
+        </GridPane>
+    </content>
+
+</DialogPane>
