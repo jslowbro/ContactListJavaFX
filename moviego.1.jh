@@ -1,0 +1,65 @@
+entity Person {
+	name String,
+    surname String,
+    country String
+}
+entity PersonContainer {
+	role Role
+}
+enum Role {
+	ACTOR, DIRECTOR, PRODUCER
+}
+
+entity Comment {
+    text String
+}
+
+entity Review {
+    text TextBlob,
+    value Integer
+}
+
+entity Rating {
+	value Integer
+}
+
+entity Film {
+	title String,
+	description String
+}
+relationship ManyToOne {
+	Review{film(id)} to Film,
+    Review{user(login)} to User
+}
+relationship ManyToOne {
+	Comment{review(id)} to Review,
+    Comment{user(login)} to User
+}
+relationship ManyToOne {
+    Rating{film(id)} to Film,
+    Rating{user(login)} to User
+}
+
+relationship ManyToOne {
+	Film{personContainer(id)} to PersonContainer
+}
+
+relationship ManyToOne {
+	PersonContainer{person(id)} to Person
+    PersonContainer{film(id)} to Film
+}
+
+
+
+// Set pagination options
+//paginate JobHistory, Employee with infinite-scroll
+//paginate Job with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+//service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
